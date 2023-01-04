@@ -1,6 +1,7 @@
 const root = ReactDOM.createRoot(document.getElementById("root"))
-const content = (
-<div>
+
+function Base () {
+    return ( <div>
     <img src="./react-logo.png" width="40px" />
     <h1>Fun Facts about React</h1>
     <ul>
@@ -10,6 +11,9 @@ const content = (
         <li>Maintained by Meta</li>
         <li>Powers 1000s of apps, including mobile apps</li>
     </ul>
-</div>)   
+</div> )
+} 
 
-root.render(content)
+root.render(<Base />)
+
+// Base is a component, to use, use it like <Base /> , name always in Pascal case
