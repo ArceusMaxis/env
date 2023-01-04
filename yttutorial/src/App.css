@@ -1,0 +1,27 @@
+.App {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.head {
+  text-align: center;
+}
+
+.westton {
+  margin: 20px;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.quotecont {
+  color: yellow;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+}
