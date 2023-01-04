@@ -10,6 +10,7 @@ Create a navbar in JSX:
     - Don't worry about styling yet - it'll just be plain-looking HTML for now
 */
 
+const root = ReactDOM.createRoot(document.getElementById("root"))
 const navbar = (
 <div>
     <nav>
@@ -20,6 +21,6 @@ const navbar = (
             <li>Contact</li>
         </ul>
     </nav>
-</div>)
-    
-    ReactDOM.render(navbar,document.getElementById("root"))
+</div>)   
+
+root.render(navbar)
