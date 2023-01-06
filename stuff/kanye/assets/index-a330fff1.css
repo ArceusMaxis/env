@@ -6,6 +6,6 @@ button:hover{border-color:#646cff}
 button:focus,button:focus-visible{outline:4px auto -webkit-focus-ring-color}
 @media (prefers-color-scheme: light){:root{color:#213547;background-color:#fff}a:hover{color:#747bff}button{background-color:#f9f9f9}}
 .App{position:fixed;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
-.head{text-align:center;font-size: 1vh;}
+.head{text-align:center;font-size: 3vh;}
 .westton{margin:20px;padding:10px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .quotecont{color:#ff0;text-align:center;font-size:80px;font-weight:800}
